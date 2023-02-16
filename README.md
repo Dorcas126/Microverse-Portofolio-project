@@ -12,7 +12,6 @@
   - [Usage](#usage)
 - [👥 Authors](#authors)
 - [⭐️ Show your support](#support)
-- [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
