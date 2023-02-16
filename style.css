@@ -8,11 +8,10 @@ h2 {
   margin-bottom: 16px;
   margin-top: 68px;
   line-height: 52px;
-
 }
 
 html {
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -20,9 +19,8 @@ body {
   font-size: 16px;
   font-weight: 400;
   color: #172b4d;
-  margin-top:0;
+  margin-top: 0;
 }
- 
 
 header {
   display: flex;
@@ -80,5 +78,4 @@ ul li {
   left: 322px;
   top: 0;
   border: 3px;
-
 }
