@@ -3,6 +3,7 @@ Microverse-Portofolio-mobile-project
 # Built with
 
 1.HTML/CSS
+
 2.Linters
 
 # Getting Started
@@ -22,7 +23,9 @@ Create the index.html file and then open it in the browser via live server.
 # Authors
 
 1.Github:Dorcas126
+
 2.Twitter:@DorcasDorc2
+
 3.LinkedIn:Uwimbabazi Dorcas
 
 # Show support
