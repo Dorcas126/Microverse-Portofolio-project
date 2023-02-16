@@ -26,14 +26,14 @@
 > Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
-  <summary>Client</summary>
+  <summary>HTML/CSS</summary>
   <ul>
     <li>HTML/CSS</li>
   </ul>
 </details>
 
 <details>
-  <summary>Server</summary>
+  <summary>Linters</summary>
   <ul>
     <li>Linters</li>
   </ul>
