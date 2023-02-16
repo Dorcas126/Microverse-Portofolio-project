@@ -1,34 +1,34 @@
 Microverse-Portofolio-mobile-project
 
-Built with
+# Built with
 
 .HTML/CSS
 .Linters
 
-Getting Started
+# Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
-Prerequisites
+# Prerequisites
 
 You should have basic knowledge of HTML, CSS, Grid, Flexbox, Github, Git, Linters and Figma.
 You must install live server in your source-code editor.
 Create the index.html file and then open it in the browser via live server.
 
-Setup
+# Setup
 
 1.Linters
 
-Authors
+# Authors
 
 .Github:Dorcas126
 .Twitter:@DorcasDorc2
 .LinkedIn:Uwimbabazi Dorcas
 
-Show support
+# Show support
 
 Send some comments if you like this project!
 
-License
+# License
 
 This project is MIT licensed.
