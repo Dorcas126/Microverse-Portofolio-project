@@ -1,17 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
 h1 {
   font-size: 20px;
-  color: #172B4D;
+  color: #172b4d;
   font-weight: 700;
   line-height: 20px;
   letter-spacing: 0;
   margin: 130px 0 10px 0;
-
-}
-html{
-  box-sizing:border-box;
 }
 
-body{
+html {
+  box-sizing: border-box;
+}
+
+body {
   margin-right: 100px;
   padding-right: 100px;
   font-family: 'Poppins', sans-serif;
@@ -19,73 +21,62 @@ body{
   font-weight: 400;
   line-height: 16px;
   letter-spacing: 0;
-  color:#172B4D;
+  color: #172b4d;
 }
 
-header{
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 90%;
   margin: 0 auto;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
 }
-.logo{
+
+.logo {
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
-  color:#6070ff ;
+  color: #6070ff;
   position: relative;
   text-decoration: none;
-
-
 }
 
-h4{
+h4 {
   font-weight: 700;
   line-height: 15px;
   letter-spacing: 0;
   color: #7f8cff;
 }
 
-ul{
+ul {
   display: inline-block;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.content{
-  background-image:url(header-shapes\ mobile.png);
+.content {
+  background-image: url(header-shapes\ mobile.png);
   background-repeat: no-repeat;
   height: 100vh;
-  
-  
 }
 
-.subcontent{
+.subcontent {
   width: 90%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
-  
 }
 
-ul li{
+ul li {
   margin-right: 10px;
 }
-.Union{
+
+.Union {
   position: absolute;
   left: 25%;
-  border: 3px 
-}
-.up{
-  position: absolute;
-  left: 16.8%;
-  right: 81.87%;
-  top: 77.81%;
-  bottom: 21.36%;
-
+  border: 3px;
 }
