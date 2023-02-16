@@ -16,7 +16,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Microverse-portofolio-project
+# 📖 Mobile version project
 
 
 ## 🛠 Built With <a name="built-with"></a>
