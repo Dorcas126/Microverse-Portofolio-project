@@ -91,10 +91,4 @@ If you like this project you can leave a comment ..
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LICENSE -->
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
-
 
