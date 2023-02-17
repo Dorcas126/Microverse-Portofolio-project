@@ -257,11 +257,6 @@ button {
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
-.disabled{
-  opacity: 0.6;
-  cursor: not-allowed;
-}
-
 .skill p {
   width: 330px;
   height: 144px;
