@@ -25,12 +25,6 @@ Thank you
   <summary>HTML/CSS</summary>
 </details>
 
-<details>
-  <ul>
-    <li>Linters</li>
-  </ul>
-</details>
-
 <!-- Features -->
 
 - **[added html]**
