@@ -225,15 +225,12 @@ button {
   color: #396df2;
   border: 1px solid #396df2;
   padding-right: 30px;
-  margin-left: 100px;
   margin: 16px auto;
-  margin-left: 0;
   border-radius: 8px;
   background: #fff;
   cursor: pointer;
   display: block;
   position: absolute;
-  
 }
 
 .project-card button {
@@ -305,5 +302,5 @@ button {
   border-radius: 8px;
   background: #fff;
   cursor: pointer;
- flex-wrap: wrap;
+  flex-wrap: wrap;
 }
