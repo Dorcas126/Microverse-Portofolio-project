@@ -23,13 +23,9 @@ Thank you
 ### Tech Stack <a name="tech-stack"></a>
 
   <summary>HTML/CSS</summary>
-  <ul>
-    <li>HTML/CSS</li>
-  </ul>
 </details>
 
 <details>
-  <summary>Linters</summary>
   <ul>
     <li>Linters</li>
   </ul>
