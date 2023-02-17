@@ -39,6 +39,7 @@ header {
   color: #6070ff;
   position: relative;
   text-decoration: none;
+  margin-top: 30px;
 }
 
 h4 {
@@ -76,12 +77,12 @@ ul li {
 .Union {
   position: absolute;
   left: 322px;
-  top: 0;
+  top: 27px;
   border: 3px;
 }
 
 h2 {
-  font-size:32px;
+  font-size: 32px;
   font-weight: 700;
   line-height: 44px;
   letter-spacing: 0;
@@ -90,13 +91,13 @@ h2 {
 
 h3 {
   font-size: 13px;
-font-weight: 600;
-line-height: 16px;
-letter-spacing: 0;
-color: #344563;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0;
+  color: #344563;
 }
 
-h3 span{
+h3 span {
   font-size: 13px;
   font-weight: 600;
   line-height: 16px;
@@ -105,7 +106,7 @@ h3 span{
 }
 
 h5 {
-  font: size 40px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 52px;
   letter-spacing: 0;
@@ -223,13 +224,16 @@ button {
   letter-spacing: 0.03;
   color: #396df2;
   border: 1px solid #396df2;
-  padding: 10px 21px;
+  padding-right: 30px;
+  margin-left: 100px;
   margin: 16px auto;
-  margin-left: 20px;
+  margin-left: 0;
   border-radius: 8px;
   background: #fff;
   cursor: pointer;
-  flex-wrap: wrap;
+  display: block;
+  position: absolute;
+  
 }
 
 .project-card button {
@@ -237,7 +241,7 @@ button {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.03;
-  color:#396df2;
+  color: #396df2;
   border: 1px solid #396df2;
   padding: 7px 16px;
   margin: 16px auto;
@@ -252,7 +256,7 @@ button {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0;
-  color:#344563;
+  color: #344563;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -263,11 +267,11 @@ button {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
-  color:#7f8cff;
+  color: #7f8cff;
   margin-left: 21px;
 }
 
-.social_media ul{
+.social_media ul {
   display: inline-block;
   list-style: none;
   margin: 0;
@@ -284,7 +288,22 @@ button {
   margin-left: 20px;
 }
 
-.my-skills img{
+.my-skills img {
   margin-left: 34px;
 }
 
+.get {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03;
+  color: #396df2;
+  border: 1px solid #396df2;
+  padding: 10px 21px;
+  margin: 16px auto;
+  margin-left: 12px;
+  border-radius: 8px;
+  background: #fff;
+  cursor: pointer;
+ flex-wrap: wrap;
+}
