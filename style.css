@@ -225,7 +225,7 @@ h5 {
 }
 
 button {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -233,7 +233,7 @@ button {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #396DF2;
+  color: #396df2;
   margin-top: 30px;
   padding-top: 12px;
 }
@@ -261,12 +261,12 @@ button {
 .skill p {
   width: 330px;
   height: 144px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #344563; 
+  color: #344563;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -315,13 +315,4 @@ button {
   cursor: pointer;
   flex-wrap: wrap;
   transition-duration: 0.5s;
-}
-
-.get button:hover{
-  background-color: blue;
-}
-
-.about-myself {
-  display: flexbox;
-  height: 100px;
 }
