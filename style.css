@@ -20,6 +20,7 @@ body {
   font-weight: 400;
   color: #172b4d;
   margin-top: 0;
+  position: absolute;
 }
 
 header {
@@ -135,7 +136,7 @@ h5 {
 .canopy-card-section {
   display: flex;
   background: #fff;
-  height: 580px;
+  height: 529px;
   width: 327px;
   left: 24px;
   top: 754px;
@@ -149,7 +150,7 @@ h5 {
 
 .canopy-second-card-section {
   background: #fff;
-  height: 610px;
+  height: 563px;
   width: 327px;
   left: 24px;
   top: 754px;
@@ -162,7 +163,7 @@ h5 {
 
 .canopy-third-card-section {
   background: #fff;
-  height: 573px;
+  height: 519px;
   width: 327px;
   left: 24px;
   top: 754px;
@@ -175,7 +176,7 @@ h5 {
 
 .canopy-fourth-card-section {
   background: #fff;
-  height: 610px;
+  height: 563px;
   width: 327px;
   left: 24px;
   top: 754px;
@@ -211,26 +212,30 @@ h5 {
   padding: 7px;
   list-style: none;
   border-radius: 8px;
+  transition-duration: 0.4s;
+}
+
+.project-card li:hover {
+  background-color: gray;
 }
 
 .project-card ul {
   padding: 0;
+  width: 300px;
 }
 
 button {
-  font-size: 15px;
+  font-family: 'Poppins';
+  font-style: normal;
   font-weight: 500;
+  font-size: 17px;
   line-height: 24px;
-  letter-spacing: 0.03;
-  color: #396df2;
-  border: 1px solid #396df2;
-  padding-right: 30px;
-  margin: 16px auto;
-  border-radius: 8px;
-  background: #fff;
-  cursor: pointer;
-  display: block;
-  position: absolute;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396DF2;
+  margin-top: 30px;
+  padding-top: 12px;
 }
 
 .project-card button {
@@ -246,18 +251,25 @@ button {
   background: #fff;
   cursor: pointer;
   flex-wrap: wrap;
+  transition-duration: 0.5s;
+}
+
+.project-card button:hover {
+  background-color: blue;
 }
 
 .skill p {
-  font-size: 16px;
+  width: 330px;
+  height: 144px;
+  font-family: 'Poppins';
+  font-style: normal;
   font-weight: 400;
+  font-size: 16px;
   line-height: 24px;
-  letter-spacing: 0;
-  color: #344563;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 20px auto;
+  color: #344563; 
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
 .social_media h4 {
@@ -292,15 +304,24 @@ button {
 .get {
   font-size: 15px;
   font-weight: 500;
-  line-height: 24px;
   letter-spacing: 0.03;
   color: #396df2;
   border: 1px solid #396df2;
   padding: 10px 21px;
-  margin: 16px auto;
+  margin-top: 12px;
   margin-left: 12px;
   border-radius: 8px;
   background: #fff;
   cursor: pointer;
   flex-wrap: wrap;
+  transition-duration: 0.5s;
+}
+
+.get button:hover{
+  background-color: blue;
+}
+
+.about-myself {
+  display: flexbox;
+  height: 100px;
 }
