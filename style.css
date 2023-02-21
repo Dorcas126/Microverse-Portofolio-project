@@ -48,11 +48,9 @@ h4 {
 }
 
 ul {
-  
   list-style: none;
   margin: 0;
   padding: 0;
-
 }
 
 .content {
@@ -232,8 +230,10 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
   color: #396df2;
-  margin-top: 30px;
-  padding-top: 12px;
+  margin-top: 15px;
+  padding: 12px 16px;
+  border-radius: 10px;
+  border: none;
 }
 
 .project-card button {
@@ -384,6 +384,7 @@ input {
 textarea {
   height: 150px;
 }
+
 .but {
   font-size: 15px;
   font-weight: 500, bold;
@@ -404,4 +405,3 @@ textarea {
   background: #6070ff;
   border: 1px solid #fff;
 }
-
