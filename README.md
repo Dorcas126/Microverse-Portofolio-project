@@ -9,14 +9,12 @@
     - [Key Features](#key-features)
 - [👥 Authors](#authors)
 
-
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 Mobile version project
 In this project i designed different cards
 of a mobile version , check my github to discover more .
 Thank you 
-
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -26,7 +24,6 @@ Thank you
 </details>
 
 <!-- Features -->
-
 
 - **[added html]**
 - **[added css]**
@@ -51,8 +48,3 @@ To run the project, execute the following command:
 <!-- SUPPORT -->
 
 If you like this project you can leave a comment .Thank you 
-
-
-
-
-
