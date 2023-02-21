@@ -48,7 +48,6 @@ h4 {
 }
 
 ul {
-  display: inline-block;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -231,8 +230,10 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
   color: #396df2;
-  margin-top: 30px;
-  padding-top: 12px;
+  margin-top: 15px;
+  padding: 12px 16px;
+  border-radius: 10px;
+  border: none;
 }
 
 .project-card button {
@@ -314,4 +315,93 @@ button {
   cursor: pointer;
   flex-wrap: wrap;
   transition-duration: 0.5s;
+}
+
+h6 {
+  font-size: 35px;
+  font-weight: 700, bold;
+  line-height: 52px;
+  letter-spacing: 0;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 100px 50px auto;
+  padding-left: 20px;
+}
+
+.contact-me {
+  height: 765px;
+  width: 375px;
+  background: no-repeat right/57% url(img/contact\ form\ shapes-mobile@2x.png);
+  border-top-left-radius: 80px;
+  background-color: #6070ff;
+  margin-top: 80px;
+}
+
+.contact-me p {
+  font-size: 19px;
+  font-weight: 400, bold;
+  line-height: 27px;
+  letter-spacing: 0;
+  color: #ebebff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 312px;
+  margin: 17px auto;
+  padding-left: 10px;
+}
+
+form {
+  margin: 0;
+  padding: 0;
+}
+
+input,
+textarea {
+  width: 275px;
+  left: 0;
+  top: 0;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  color: #172b4d;
+  margin: 16px 24px auto;
+  font-size: 16px;
+  font-family: 'poppins', sans-serif;
+  align-items: center;
+  justify-content: center;
+  padding: 17px;
+  flex: 1.5;
+}
+
+input {
+  height: 18px;
+}
+
+textarea {
+  height: 150px;
+}
+
+.but {
+  font-size: 15px;
+  font-weight: 500, bold;
+  line-height: 24px;
+  letter-spacing: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #396df2;
+  margin-left: 24px;
+  cursor: pointer;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  padding-bottom: 12px;
+  display: flex;
+}
+
+.but :hover {
+  color: #fff;
+  background: #6070ff;
+  border: 1px solid #fff;
 }
