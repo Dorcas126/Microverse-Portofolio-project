@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #172b4d;
+   /* position: absolute; */
+}
+
 h1 {
   font-size: 40px;
   color: #172b4d;
@@ -10,16 +22,10 @@ h1 {
   line-height: 52px;
 }
 
-html {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Poppins', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  color: #172b4d;
-  position: absolute;
+.container {
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid #fff;
 }
 
 header {
@@ -37,7 +43,7 @@ header {
   font-weight: 700;
   line-height: 20px;
   color: #6070ff;
-  margin-top: 30px;
+  margin-top: 0;
 }
 
 h4 {
@@ -48,15 +54,20 @@ h4 {
 }
 
 ul {
+  display: inline-block;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.content {
+.first-card {
+  width: 80%;
+}
+
+.subcontent {
   background-image: url(img/header-shapes-mobile.png);
   background-repeat: no-repeat;
-  
+  height: 100vh;
 }
 
 .subcontent {
@@ -64,18 +75,11 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0 auto;
-}
+  margin: 86px auto;
+} 
 
 ul li {
   margin-right: 10px;
-}
-
-.Union {
-  position: absolute;
-  left: 322px;
-  top: 27px;
-  border: 3px;
 }
 
 h2 {
@@ -296,6 +300,52 @@ button {
   top: 0;
   margin-left: 20px;
 }
+.about {
+  background: white;
+  border-top-right-radius: 80px;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 92%;
+  margin: 0 auto;
+}
+
+.about h2 {
+  margin-top: 70px;
+}
+
+.about li {
+  display: inline-block;
+  list-style-type: none;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.about .connect {
+  margin-top: 0;
+  color: #7f8cff;
+}
+
+.about h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #dfe1e6;
+  padding-bottom: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.about button {
+  margin: 20px 0 20px 0;
+  padding-left: 10px;
+}
 
 .my-skills img {
   margin-left: 34px;
@@ -323,7 +373,6 @@ h6 {
   line-height: 52px;
   letter-spacing: 0;
   color: #fff;
-  display: flex;
   justify-content: space-between;
   align-items: center;
   width: 90%;
@@ -331,28 +380,43 @@ h6 {
   padding-left: 20px;
 }
 
-.contact-me {
-  height: 765px;
-  width: 375px;
-  background: no-repeat right/57% url(img/contact\ form\ shapes-mobile@2x.png);
-  border-top-left-radius: 80px;
-  background-color: #6070ff;
-  margin-top: 80px;
+.contact {
+  background-color: white;
 }
 
-.contact-me p {
-  font-size: 19px;
-  font-weight: 400, bold;
-  line-height: 27px;
-  letter-spacing: 0;
-  color: #ebebff;
+.contact-container {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  width: 312px;
-  margin: 17px auto;
-  padding-left: 10px;
+  background-image: url(img/contact\ form\ shapes-mobile@2x.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right 0 top 5px;
+  background-color: #6070ff;
+  border-top-left-radius: 85px;
+  margin-top: 50px;
 }
+
+.contact h6,
+.contact p {
+  color: white;
+  text-align: center;
+}
+
+.contact h6 {
+  margin-top: 10px;
+  font-size: 40px;
+}
+
+.contact p {
+  margin: 21px;
+  max-width: 481px;
+  padding: 0 30px;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
 
 form {
   margin: 0;
@@ -424,13 +488,14 @@ textarea {
       
   }
 
-  .menu {
+   .menu img{
       display: none;
-  }
+  } 
 
   .lists ul {
       display: flex;
       margin-right: 30px;
+    
   }
 
   .lists ul li a {
@@ -444,6 +509,7 @@ textarea {
       color: #344563;
       cursor: pointer;
       margin-right: 10px;
+      padding-top: 10px;
   }
 
   .logo {
@@ -459,7 +525,7 @@ textarea {
   .subcontent p {
       padding-left: 127px;
       margin-left: 100px;
-      width: 70px;
+      width: 70%;
       font-size: 15px;
       color: #344563;
   }
@@ -481,7 +547,252 @@ textarea {
   }
 
   .subcontent {
-      background-image: no repeat center/120%, url(img/header\ background\ shape-desktop\ \(1\).png);
+    background-image :url(img/Header\ bg@2x.png);
+    background-repeat: no-repeat;
+    min-height: 841px; 
+    background-size: 100%;  
+  }
+
+  .canopy-card {
+      background: #e5e5e5;
+      width: 100%;
+  }
+
+  .canopy-card-section,
+  .canopy-second-card-section,
+  .canopy-third-card-section,
+  .canopy-fourth-card-section {
+      height: 90%;
+      width: 76%;
+      left: 0;
+      top: 0;
+      border-radius: 42px;
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      cursor: pointer;
+      align-items: center;
+  }
+
+  .canopy-fourth-card-section:hover {
+      border: 2px solid #dfe1e6;
+  }
+
+  .canopy-card-section:hover {
+      border: 2px solid #dfe1e6;
+  }
+
+  .canopy-second-card-section:hover {
+      border: 2px solid #dfe1e6;
+  }
+
+  .canopy-third-card-section:hover {
+      border: 2px solid #a7aeff;
+  }
+
+  .snapshoot-portofolio {
+      width: 50%;
+      height: 100%;
+  }
+
+  .snapshoot-portofolio img {
+      background: #eaeaed;
+      width: 100%;
+      object-fit: cover;
+      height: 448px;
+      border-radius: 8px;
+  }
+
+  .project-card {
+      width: 544px;
+      color: #344563;
+      display: flex;
+      flex-direction: column;
+      height: 448px;
+      padding: 3%;
+  }
+
+  .mycanopy-section {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+  }
+
+  form button {
+      align-items: center;
+  }
+
+  .btn button {
+      margin-left: 0;
+  }
+
+  .about button {
+      margin: 20px 0 20px 0;
+      display: flex;
+  }
+
+  .project-card button {
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 0.03;
+      color: #396df2;
+      padding: 7px;
+      background: #fff;
+      cursor: pointer;
+      margin-left: -0.5%;
+      margin-top: 4%;
+  }
+  
+  .project-card button:hover {
+      color: #fff;
+      background: #6070ff;
+      border: 1px solid #fff;
+  }
+
+  .tool {
+      width: 60%;
+      margin-top: 5%;
+      margin-left: 5%;
+      cursor: pointer;
+  }
+
+  .about-myself {
+      height: 670px;
+      border-radius: 0 90px 0 0;
+      padding: 0 120px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      background: white ;
+  }
+
+  .about section {
+      width: 390px;
+  }
+
+  .let-connect h4 {
+      padding-left: 0;
+      margin-left: 0;
+  }
+
+  .links ul {
+      margin: 0;
+  }
+
+  .contact-container {
+      background: no repeat center/80%, url(img/contact\ form\ background\ shapes@2x.png);
+  }
+
+  .about-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+  }
+
+  form {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      min-height: 50vh;
+      align-items: center;
+      margin-top: 0px;
+  }
+
+  input,
+  textarea {
+      font: inherit;
+      width: 300px;
+      padding: 10px;
+      outline: none;
+      border: none;
+  }
+
+  form > * {
+      margin-bottom: 10px;
+  }
+
+}
+
+
+/*MEDIA QUERY FOR 1024 PX*/
+@media (min-width: 1442px) {
+  body {
+      overflow: hidden;
+      overflow-y: visible;
+  }
+
+  header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 auto;
+      margin-top: 30px;
+      
+  }
+
+  .menu img {
+      display: none;
+  }
+
+  .lists ul {
+      display: flex;
+      margin-right: 30px;
+  }
+
+  .lists ul li a {
+      text-decoration: none;
+      font-family: 'Poppins', sans-serif;
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 20px;
+      letter-spacing: 0;
+      text-align: center;
+      color: #344563;
+      cursor: pointer;
+      margin-right: 10px;
+      padding-top: 10px;
+  }
+
+  .logo {
+      margin-left: 80px;
+  }
+
+  h1{
+      margin-top: 31px;
+      padding-left: 127px;
+      margin-left: 100px;
+  }
+
+  .subcontent p {
+      padding-left: 127px;
+      margin-left: 100px;
+      width: 70%;
+      font-size: 15px;
+      color: #344563;
+  }
+
+  h4 {
+      padding-left: 227px;
+      margin-top: 8px;
+  }
+
+  span {
+      color: #6b778c;
+  }
+
+  .subcontent ul li {
+      margin-left: 194px;
+      padding-left: 30px;
+      margin-right: -198px;
+      display: inline-block;
+  }
+
+  .subcontent {
+      background-image :url(img/Header\ bg@2x.png);
+      background-repeat: no repeat;
       min-height: 841px;   
   }
 
@@ -615,7 +926,7 @@ textarea {
   }
 
   .contact-container {
-      background: no repeat center/80%, url(img/contact\ form-\ background-shape-desktop\ \(1\).png);
+      background: no repeat center/80%, url(img/contact\ form\ background\ shapes@2x.png);
   }
 
   .about-container {
@@ -630,7 +941,7 @@ textarea {
       justify-content: space-around;
       min-height: 50vh;
       align-items: center;
-      margin-top: 30px;
+      margin-top: 0;
   }
 
   input,
