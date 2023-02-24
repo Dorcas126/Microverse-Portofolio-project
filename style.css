@@ -382,19 +382,16 @@ footer {
   margin-top: 80px;
 } */
 
-/* .contact-me p {
+.contact p {
   font-size: 19px;
   font-weight: 400, bold;
   line-height: 27px;
   letter-spacing: 0;
   color: #ebebff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 312px;
+  width: 95%;
   margin: 17px auto;
-  padding-left: 10px;
-} */
+  text-align: center;
+} 
 
 form {
   display: flex;
@@ -509,6 +506,17 @@ textarea {
     display: flex;
     flex-direction: column;
   }
+
+  .contact p {
+    font-size: 19px;
+    font-weight: 400, bold;
+    line-height: 27px;
+    letter-spacing: 0;
+    color: #ebebff;
+    width: 50%;
+    margin: 17px auto;
+    text-align: center;
+  } 
 
   /* /////////////////CONTACT ME///////////////// */
   .contact-container {
