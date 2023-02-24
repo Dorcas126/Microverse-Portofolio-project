@@ -86,8 +86,12 @@ CSS
 
 <!-- SUPPORT -->
 
+## ⭐️ Show your support <a name="support"></a>
+
 If you like this project leave a comment .
 
 <!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank each and everyone on viewing my project.Thank you 
