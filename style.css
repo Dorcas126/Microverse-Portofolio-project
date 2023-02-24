@@ -70,6 +70,11 @@ header {
   padding: 0;
 }
 
+.project-card ul {
+  padding: 0;
+  float:left;
+}
+
 .project-card li {
   display: inline-block;
   font-size: 12px;
@@ -183,10 +188,6 @@ h3 span {
   background-color: #8080ff;
 }
 
-.project-card ul {
-  padding: 0;
-  width: 100%;
-}
 
 button {
   font-family: 'Poppins', sans-serif;
