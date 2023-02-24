@@ -49,6 +49,19 @@ header {
   margin-left: 25px;
   text-decoration: none;
   font-weight: bold;
+  font-size: 16px;
+  animation-name: logo-animation;
+  animation-duration: 1s;
+}
+
+@keyframes logo-animation {
+  0% {
+    transform: rotate(45deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
 }
 
 .Union {
@@ -158,6 +171,15 @@ h3 span {
 .snapshoot-portofolio img {
   width: 100%;
   height: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.my-skills img {
+  margin-left: 34px;
+}
+
+.snapshoot-portofolio img:hover {
+  transform: scale(1.1);
 }
 
 .canopy-card-section {
@@ -218,11 +240,12 @@ button {
   background: #fff;
   cursor: pointer;
   flex-wrap: wrap;
+  transition: color 0.5s ease-in-out;
   transition-duration: 0.6s;
 }
 
 .project-card button:hover {
-  color: white;
+  color: violet;
   background-color: #6070ff;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
@@ -265,12 +288,18 @@ button {
   border: 1px solid #396df2;
   padding: 7px 10px;
   font-size: 14px;
+  transition: color 1s ease-in-out;
+}
+
+.btn-resume:hover {
+  color: black;
+  background-color: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
 .about .about-container .btn-resume:hover {
   border: 1px solid white;
   background-color: #396df2;
-  color: white;
   cursor: pointer;
 }
 
@@ -320,10 +349,6 @@ button {
 .about .tool ul.languages li a i {
   margin-right: 10px;
   font-size: 19px;
-}
-
-.my-skills img {
-  margin-left: 34px;
 }
 
 .get {
@@ -382,19 +407,24 @@ footer {
   margin-top: 80px;
 } */
 
-/* .contact-me p {
+.contact p {
   font-size: 19px;
   font-weight: 400, bold;
   line-height: 27px;
   letter-spacing: 0;
-  color: #ebebff;
   display: flex;
+  color: #ebebff;
   justify-content: space-between;
   align-items: center;
   width: 312px;
   margin: 17px auto;
   padding-left: 10px;
-} */
+  transition: transform 0.3s ease-in-out;
+}
+
+.contact p:hover {
+  transform: translateX(50px);
+}
 
 form {
   display: flex;
@@ -441,6 +471,17 @@ textarea {
   color: #fff;
   background: #6070ff;
   border: 1px solid #fff;
+}
+
+.touch {
+  cursor: pointer;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.touch:hover {
+  color: black;
+  background-color: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
 @media all and (min-width: 768px) {
