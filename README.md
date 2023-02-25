@@ -22,10 +22,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Hello Microverse] <a name="about-project">
-Hello , this a mobile first portfolio project</a>
+# 📖 [Microverse Desktop vesrion project] <a name="about-project">
+Hello , this is a desktop version portfolio project</a>
 
-This a portfolio mobile first app. It is created according to a figma template and the complete version will be pushed next time.
+This portofolio combines a mobile version portofolio and desktop version portofolio 
+and they are both reponsive.
 
 ## 🛠 Built With 
 
@@ -73,9 +74,7 @@ You can deploy this project using: GitHub
 
 - GitHub: (https://github.com/Dorcas126)
 - LinkedIn:(www.linkedin.com/in/uwimbabazi-dorcas-956a5a226)
-- Twitter:(https://twitter.com/home?lang=en)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- Twitter:(https://twitter.com/DorcasDorc2)
 
 <!-- FUTURE FEATURES -->
 ## Future Features
@@ -84,21 +83,18 @@ You can deploy this project using: GitHub
 - [ ] *[Other features]*
 - [ ] *[Better style]*
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- CONTRIBUTING -->
+
 ## Contributions
 
 Contributions, issues, and feature requests are welcome!
 
-
 Feel free to check the [issues page](../../issues/).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
-> Write a message to encourage readers to support your project
+## Support 
 
 If you like this project reach me on my contact
 
@@ -108,5 +104,3 @@ If you like this project reach me on my contact
 
 I would like to thank in advance. This is the first draft of this project. It works on my machine. If you try it and run into problems, please create an issue; I'll do what I can to fix it.
 
-📝 License
-This project is [MIT](./LICENSE) licensed.
