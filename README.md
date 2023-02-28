@@ -60,3 +60,7 @@ To run the project, execute the following command:
 <!-- SUPPORT -->
 
 If you like this project you can leave a comment .Thank you 
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank in advance. This is the first draft of this project. It works on my machine. If you try it and run into problems, please create an issue; I'll do what I can to fix it.
