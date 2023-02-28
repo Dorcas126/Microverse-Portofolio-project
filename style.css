@@ -449,7 +449,6 @@ textarea {
 .btn :hover {
   color: #fff;
   background: #6070ff;
-  border: 1px solid #fff;
 }
 
 @media all and (min-width: 768px) {
