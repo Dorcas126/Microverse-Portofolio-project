@@ -22,7 +22,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Microverse Desktop vesrion project] <a name="about-project">
+# 📖 [Microverse Contact project] <a name="about-project">
 Hello , this is a desktop version portfolio project</a>
 
 This portofolio combines a mobile version portofolio and desktop version portofolio 
@@ -47,7 +47,7 @@ In order to run this project you need:You have to clone this project to your loc
 
 ### Setup
 
-Clone this repository to your desired folder:git clone https://github.com/Dorcas126/Microverse-Portofolio-project/tree/desktop
+Clone this repository to your desired folder: https://github.com/Dorcas126/Microverse-Portofolio-project
 
 ### Install
 
@@ -69,38 +69,14 @@ You can deploy this project using: GitHub
 
 ## 👥 Authors <a name="authors"></a>
 
-
-👤 *Author*
-
-- GitHub: (https://github.com/Dorcas126)
-- LinkedIn:(www.linkedin.com/in/uwimbabazi-dorcas-956a5a226)
-- Twitter:(https://twitter.com/DorcasDorc2)
-
-<!-- FUTURE FEATURES -->
-## Future Features
-
-- [ ] *[Responsive]*
-- [ ] *[Other features]*
-- [ ] *[Better style]*
-
-<!-- CONTRIBUTING -->
-
-## Contributions
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
+- GitHub: [@Dorcas126](https://github.com/Dorcas126)
+- Twitter: [@DorcasDorc2](https://twitter.com/DorcasDorc2)
+- LinkedIn: [Uwimbabazi Dorcas](www.linkedin.com/in/uwimbabazi-dorcas-956a5a226)
 
 <!-- SUPPORT -->
 
-## Support 
-
-If you like this project reach me on my contact
-
-<!-- ACKNOWLEDGEMENTS -->
+If you like this project you can leave a comment .Thank you 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank in advance. This is the first draft of this project. It works on my machine. If you try it and run into problems, please create an issue; I'll do what I can to fix it.
-
