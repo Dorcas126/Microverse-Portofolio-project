@@ -53,15 +53,10 @@ To run the project, execute the following command:
 
 👤 **Author1**
 
-- GitHub: [@Dorcas126]
-- Twitter: [@DorcasDorc2]
-- LinkedIn: [Uwimbabazi Dorcas]
+- GitHub: [@Dorcas126](https://github.com/Dorcas126)
+- Twitter: [@DorcasDorc2](https://twitter.com/DorcasDorc2)
+- LinkedIn: [Uwimbabazi Dorcas](www.linkedin.com/in/uwimbabazi-dorcas-956a5a226)
 
 <!-- SUPPORT -->
 
 If you like this project you can leave a comment .Thank you 
-
-
-
-
-
