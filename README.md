@@ -1,4 +1,3 @@
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -7,44 +6,77 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Mobile version project
-In this project i designed different cards
-of a mobile version , check my github to discover more .
-Thank you 
+# 📖 [Microverse Contact project] <a name="about-project">
+Hello , this is a desktop version portfolio project</a>
 
-## 🛠 Built With <a name="built-with"></a>
+This portofolio combines a mobile version portofolio and desktop version portofolio 
+and they are both reponsive.
 
-### Tech Stack <a name="tech-stack"></a>
+## 🛠 Built With 
 
-  <summary>HTML/CSS</summary>
-</details>
+### Tech Stack 
+HTML
+CSS
 
-<!-- Features -->
+### Key Features 
 
-- **[added html]**
-- **[added css]**
+- *[Navbar]*
+- *[Background image]*
+- *[Mobile first]*
+- *[Linter is used]*
+
+### Prerequisites
+
+In order to run this project you need:You have to clone this project to your local machine
+
+### Setup
+
+Clone this repository to your desired folder: https://github.com/Dorcas126/Microverse-Portofolio-project
+
+### Install
+
+Install this project with: Any software which you are comfortable with
 
 ### Usage
 
-To run the project, execute the following command:
+To run the project, execute the following command: On your computer's keyboard press f5 or run it with live server
 
-1.Linters
-2.HTML/CSS
+### Run tests
+
+To run tests, run the following command: In visual studio code with live server plugin right click and run live server.
+
+### Deployment
+
+You can deploy this project using: GitHub
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
-
-- GitHub: [@Dorcas126]
-- Twitter: [@DorcasDorc2]
-- LinkedIn: [Uwimbabazi Dorcas]
+- GitHub: [@Dorcas126](https://github.com/Dorcas126)
+- Twitter: [@DorcasDorc2](https://twitter.com/DorcasDorc2)
+- LinkedIn: [Uwimbabazi Dorcas](www.linkedin.com/in/uwimbabazi-dorcas-956a5a226)
 
 <!-- SUPPORT -->
 
 If you like this project you can leave a comment .Thank you 
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank in advance. This is the first draft of this project. It works on my machine. If you try it and run into problems, please create an issue; I'll do what I can to fix it.
