@@ -96,7 +96,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## Support 
 
-If you like this project reach me on my contact
+If you like this project reach me on my Linkedin
 
 <!-- ACKNOWLEDGEMENTS -->
 
