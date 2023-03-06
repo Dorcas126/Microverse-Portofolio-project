@@ -22,7 +22,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Microverse Desktop vesrion project] <a name="about-project">
+# 📖 [Microverse Desktop version project] <a name="about-project">
 Hello , this is a desktop version portfolio project</a>
 
 This portofolio combines a mobile version portofolio and desktop version portofolio 
