@@ -47,7 +47,7 @@ In order to run this project you need:You have to clone this project to your loc
 
 ### Setup
 
-Clone this repository to your desired folder:git clone https://github.com/Dorcas126/Microverse-Portofolio-project/tree/desktop
+Clone this repository to your desired folder:git clone https://github.com/Dorcas126/Microverse-Portofolio-project/tree/application-deploy
 
 ### Install
 
