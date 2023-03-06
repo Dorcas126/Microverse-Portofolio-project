@@ -217,6 +217,7 @@ h3 span {
 }
 
 .project-card ul {
+  float: left;
   padding: 0;
   width: 100%;
 }
