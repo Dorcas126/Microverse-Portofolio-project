@@ -42,6 +42,10 @@ CSS
 - *[Mobile first]*
 - *[Linter is used]*
 
+<!-- LIVE DEMO -->
+## [🚀Live Demo](https://github.com/Dorcas126/Microverse-Portofolio-project)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Prerequisites
 
 In order to run this project you need:You have to clone this project to your local machine
