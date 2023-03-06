@@ -22,7 +22,8 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Microverse Contact project] <a name="about-project">
+# 📖 [Microverse Desktop version project] <a name="about-project">
+
 Hello , this is a desktop version portfolio project</a>
 
 This portofolio combines a mobile version portofolio and desktop version portofolio 
@@ -47,7 +48,7 @@ In order to run this project you need:You have to clone this project to your loc
 
 ### Setup
 
-Clone this repository to your desired folder: https://github.com/Dorcas126/Microverse-Portofolio-project
+Clone this repository to your desired folder:git clone https://github.com/Dorcas126/Microverse-Portofolio-project/tree/application-deploy
 
 ### Install
 
@@ -75,7 +76,11 @@ You can deploy this project using: GitHub
 
 <!-- SUPPORT -->
 
-If you like this project you can leave a comment .Thank you 
+## Support 
+
+If you like this project reach me on my Linkedin
+
+<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
