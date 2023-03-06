@@ -23,6 +23,7 @@
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [Microverse Desktop version project] <a name="about-project">
+
 Hello , this is a desktop version portfolio project</a>
 
 This portofolio combines a mobile version portofolio and desktop version portofolio 
@@ -69,28 +70,9 @@ You can deploy this project using: GitHub
 
 ## 👥 Authors <a name="authors"></a>
 
-
-👤 *Author*
-
-- GitHub: (https://github.com/Dorcas126)
-- LinkedIn:(www.linkedin.com/in/uwimbabazi-dorcas-956a5a226)
-- Twitter:(https://twitter.com/DorcasDorc2)
-
-<!-- FUTURE FEATURES -->
-## Future Features
-
-- [ ] *[Responsive]*
-- [ ] *[Other features]*
-- [ ] *[Better style]*
-
-<!-- CONTRIBUTING -->
-
-## Contributions
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
+- GitHub: [@Dorcas126](https://github.com/Dorcas126)
+- Twitter: [@DorcasDorc2](https://twitter.com/DorcasDorc2)
+- LinkedIn: [Uwimbabazi Dorcas](www.linkedin.com/in/uwimbabazi-dorcas-956a5a226)
 
 <!-- SUPPORT -->
 
@@ -103,4 +85,3 @@ If you like this project reach me on my Linkedin
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank in advance. This is the first draft of this project. It works on my machine. If you try it and run into problems, please create an issue; I'll do what I can to fix it.
-
