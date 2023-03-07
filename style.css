@@ -40,6 +40,7 @@ header {
   align-items: center;
   height: 50px;
   background: white;
+  position: fixed;
 }
 
 .logo {
@@ -49,7 +50,7 @@ header {
   margin-left: 25px;
   text-decoration: none;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 30px;
   animation-name: logo-animation;
   animation-duration: 1s;
 }
@@ -96,8 +97,8 @@ header {
 
 .project-card li {
   display: inline-block;
-  font-size: 12px;
-  font-weight: 500;
+  font-size: 15px;
+  font-weight: 800;
   line-height: 16px;
   letter-spacing: 0.03;
   color: #6070ff;
@@ -126,6 +127,7 @@ header {
 .subcontent a {
   color: #6070ff;
   text-decoration: none;
+  font-size: 25px;
 }
 
 .Union ul li a {
@@ -158,11 +160,11 @@ header {
 }
 
 h3 span {
-  font-size: 13px;
+  font-size: 18px;
   font-weight: 600;
   line-height: 16px;
   letter-spacing: 0;
-  color: #7a869a;
+  color: #7a86a1;
 }
 
 .canopy-card {
@@ -213,7 +215,7 @@ h3 span {
 }
 
 .project-card li:hover {
-  background-color: #8080ff;
+  background-color: white;
 }
 
 .project-card ul {
@@ -294,6 +296,7 @@ button {
 
 .about .about-container a {
   color: #6070ff;
+  font-size: 20px;
 }
 
 .btn-resume {
@@ -421,11 +424,11 @@ footer {
 
 .contact p {
   font-size: 19px;
-  font-weight: 400, bold;
+  font-weight: 500, bold;
   line-height: 27px;
   letter-spacing: 0;
   display: flex;
-  color: #ebebff;
+  color: white;
   justify-content: space-between;
   align-items: center;
   width: 312px;
@@ -493,6 +496,10 @@ textarea {
   color: black;
   background-color: #6070ff;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+label {
+  font-size: 30px;
 }
 
 @media all and (min-width: 768px) {
