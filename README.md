@@ -22,7 +22,8 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Microverse Desktop vesrion project] <a name="about-project">
+# 📖 [Microverse Desktop version project] <a name="about-project">
+
 Hello , this is a desktop version portfolio project</a>
 
 This portofolio combines a mobile version portofolio and desktop version portofolio 
@@ -74,34 +75,15 @@ You can deploy this project using: GitHub
 
 ## 👥 Authors <a name="authors"></a>
 
-
-👤 *Author*
-
-- GitHub: (https://github.com/Dorcas126)
-- LinkedIn:(www.linkedin.com/in/uwimbabazi-dorcas-956a5a226)
-- Twitter:(https://twitter.com/DorcasDorc2)
-
-<!-- FUTURE FEATURES -->
-## Future Features
-
-- [ ] *[Responsive]*
-- [ ] *[Other features]*
-- [ ] *[Better style]*
-
-<!-- CONTRIBUTING -->
-
-## Contributions
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
+- GitHub: [@Dorcas126](https://github.com/Dorcas126)
+- Twitter: [@DorcasDorc2](https://twitter.com/DorcasDorc2)
+- LinkedIn: [Uwimbabazi Dorcas](www.linkedin.com/in/uwimbabazi-dorcas-956a5a226)
 
 <!-- SUPPORT -->
 
 ## Support 
 
-If you like this project reach me on my contact
+If you like this project reach me on my Linkedin
 
 <!-- ACKNOWLEDGEMENTS -->
 
