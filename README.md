@@ -101,3 +101,10 @@ If you like this project reach me on my Linkedin
 
 I would like to thank in advance. This is the first draft of this project. It works on my machine. If you try it and run into problems, please create an issue; I'll do what I can to fix it.
 
+## 📝 License <a name="license"></a> 
+
+This project is [MIT](./MIT.md) licensed.
+
+ <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
