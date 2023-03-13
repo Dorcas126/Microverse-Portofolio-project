@@ -103,7 +103,7 @@ I would like to thank in advance. This is the first draft of this project. It wo
 
 ## 📝 License <a name="license"></a> 
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](https://github.com/Dorcas126/Microverse-Portofolio-project/blob/mobile-menu/LICENCE) licensed.
 
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
