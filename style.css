@@ -48,19 +48,73 @@ p {
 header {
   width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50px;
   background: white;
 }
 
-.logo {
-  flex: 3;
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  padding: 1.6rem;
+}
+
+.icons {
+  display: block;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 20;
   color: #6070ff;
-  text-align: left;
-  margin-left: 25px;
-  text-decoration: none;
-  font-weight: bold;
+}
+
+.display-img {
+  display: block;
+  margin-top: -16px;
+  margin-left: 40px;
+  width: 55px;
+}
+
+.no-display-img {
+  display: none;
+  width: 20px;
+  margin: 1.3rem;
+  margin-top: 1px;
+}
+
+.open-menu .display-img {
+  display: none;
+}
+
+.open-menu .no-display-img {
+  display: block;
+  color: #fff;
+}
+
+.ul-list {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem;
+  padding-top: 130px;
+  padding-left: 10%;
+  padding-right: 90%;
+  height: 325.5rem;
+  background-color: #6070ff;
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  transform: translate(-100%);
+  transition: transform 1s;
+}
+
+ul li {
+  margin-right: 10px;
+}
+
+.ul-list li {
+  padding-top: 1rem;
 }
 
 .subcontent a {
@@ -68,15 +122,34 @@ header {
   text-decoration: none;
 }
 
-header .logo a {
+.ul-list li a {
+  font-size: 30px;
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+}
+
+.open-menu .ul-list {
+  transform: translateX(0);
+  z-index: 5;
+}
+
+#logo {
+  font-size: 25px;
+  color: #6070ff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* header .logo a {
   color: #6070ff;
   transition-property: transform;
   transition-duration: 1000ms;
   transition-delay: 100ms;
   font-weight: bold;
-}
+} */
 
-.Union {
+/* .Union {
   flex: 1;
   display: flex;
   flex-direction: row;
@@ -93,7 +166,7 @@ header .logo a {
   margin: 0;
   padding: 0;
   display: none;
-}
+} */
 
 .project-card li {
   display: inline-block;
@@ -453,14 +526,46 @@ textarea {
 }
 
 @media all and (min-width: 768px) {
-  .Union ul {
+  body {
+    overflow: hidden;
+    overflow-y: visible;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  nav {
+    width: 90%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 4rem;
+    padding-bottom: 1rem;
+    margin: 0;
+    text-align: center;
+  }
+
+  .display-img,
+  .no-display-img,
+  .open-menu .display-img,
+  .open-menu .no-display-img {
+    display: none;
+  }
+
+  /* .Union ul {
     flex: 1;
     display: flex;
     justify-content: space-around;
-  }
+  } */
 
-  .logo {
-    flex: 2;
+  #logo {
+    margin-left: 80px;
   }
 
   .Union li a {
