@@ -65,11 +65,7 @@ To run the project, execute the following command: On your computer's keyboard p
 
 ### Run tests
 
-To run tests, run the following command: In visual studio code with live server plugin right click and run live server.
-
-### Deployment
-
-You can deploy this project using: GitHub
+To run linters tests, run the following command: npx hint . npx stylelint "**/*.{css,scss}" npx eslint .
 
 <!-- AUTHORS -->
 
