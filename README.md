@@ -79,6 +79,16 @@ You can deploy this project using: GitHub
 - Twitter: [@DorcasDorc2](https://twitter.com/DorcasDorc2)
 - LinkedIn: [Uwimbabazi Dorcas](www.linkedin.com/in/uwimbabazi-dorcas-956a5a226)
 
+## Future Features <a name="future-features"></a>
+- Add List of Portfolio
+- Add Contact Form
+- Add Footer
+- Add Animation and Transition
+- Mobile Menu
+- Pop-up Window
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- SUPPORT -->
 
 ## Support 
@@ -90,3 +100,4 @@ If you like this project reach me on my Linkedin
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank in advance. This is the first draft of this project. It works on my machine. If you try it and run into problems, please create an issue; I'll do what I can to fix it.
+
