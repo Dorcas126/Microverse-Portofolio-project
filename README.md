@@ -33,6 +33,7 @@ and they are both reponsive.
 ### Tech Stack 
 HTML
 CSS
+Javascript
 
 ### Key Features 
 
@@ -41,13 +42,17 @@ CSS
 - *[Mobile first]*
 - *[Linter is used]*
 
+<!-- LIVE DEMO -->
+## [🚀Live Demo](https://dorcas126.github.io/Microverse-Portofolio-project/)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Prerequisites
 
 In order to run this project you need:You have to clone this project to your local machine
 
 ### Setup
 
-Clone this repository to your desired folder:git clone https://github.com/Dorcas126/Microverse-Portofolio-project/tree/desktop
+Clone this repository to your desired folder:git clone  https://github.com/Dorcas126/Microverse-Portofolio-project/tree/mobile-menu
 
 ### Install
 
@@ -103,4 +108,3 @@ If you like this project reach me on my contact
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank in advance. This is the first draft of this project. It works on my machine. If you try it and run into problems, please create an issue; I'll do what I can to fix it.
-
