@@ -65,11 +65,7 @@ To run the project, execute the following command: On your computer's keyboard p
 
 ### Run tests
 
-To run tests, run the following command: In visual studio code with live server plugin right click and run live server.
-
-### Deployment
-
-You can deploy this project using: GitHub
+To run linters tests, run the following command: npx hint . npx stylelint "**/*.{css,scss}" npx eslint .
 
 <!-- AUTHORS -->
 
@@ -100,4 +96,11 @@ If you like this project reach me on my Linkedin
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank in advance. This is the first draft of this project. It works on my machine. If you try it and run into problems, please create an issue; I'll do what I can to fix it.
+
+## 📝 License <a name="license"></a> 
+
+This project is [MIT](https://github.com/Dorcas126/Microverse-Portofolio-project/blob/mobile-menu/LICENCE) licensed.
+
+ <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
