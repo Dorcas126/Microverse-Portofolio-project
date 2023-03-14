@@ -34,6 +34,7 @@ and they are both reponsive.
 ### Tech Stack 
 HTML
 CSS
+Javascript
 
 ### Key Features 
 
@@ -52,7 +53,7 @@ In order to run this project you need:You have to clone this project to your loc
 
 ### Setup
 
-Clone this repository to your desired folder:git clone https://github.com/Dorcas126/Microverse-Portofolio-project/tree/application-deploy
+Clone this repository to your desired folder:git clone  https://github.com/Dorcas126/Microverse-Portofolio-project/tree/mobile-menu
 
 ### Install
 
@@ -64,11 +65,7 @@ To run the project, execute the following command: On your computer's keyboard p
 
 ### Run tests
 
-To run tests, run the following command: In visual studio code with live server plugin right click and run live server.
-
-### Deployment
-
-You can deploy this project using: GitHub
+To run linters tests, run the following command: npx hint . npx stylelint "**/*.{css,scss}" npx eslint .
 
 <!-- AUTHORS -->
 
@@ -77,6 +74,16 @@ You can deploy this project using: GitHub
 - GitHub: [@Dorcas126](https://github.com/Dorcas126)
 - Twitter: [@DorcasDorc2](https://twitter.com/DorcasDorc2)
 - LinkedIn: [Uwimbabazi Dorcas](www.linkedin.com/in/uwimbabazi-dorcas-956a5a226)
+
+## Future Features <a name="future-features"></a>
+- Add List of Portfolio
+- Add Contact Form
+- Add Footer
+- Add Animation and Transition
+- Mobile Menu
+- Pop-up Window
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
@@ -89,3 +96,11 @@ If you like this project reach me on my Linkedin
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank in advance. This is the first draft of this project. It works on my machine. If you try it and run into problems, please create an issue; I'll do what I can to fix it.
+
+## 📝 License <a name="license"></a> 
+
+This project is [MIT](https://github.com/Dorcas126/Microverse-Portofolio-project/blob/mobile-menu/LICENCE) licensed.
+
+ <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+

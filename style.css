@@ -8,9 +8,14 @@ body {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-weight: 400;
+  background-color: #e5e5e5;
   color: #172b4d;
   margin: 0;
   padding: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 h1 {
@@ -30,75 +35,124 @@ p {
 .container {
   width: 100%;
   margin: 0 auto;
-  background-color: lightgray;
+  background-color: #e5e5e5;
+}
+
+.content-container {
+  width: 100%;
+  height: fit-content;
+  background-color: white;
+  border-radius: 0 0 0 50px;
 }
 
 header {
   width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50px;
   background: white;
-  position: fixed;
 }
 
-.logo {
-  flex: 3;
-  color: #6070ff;
-  text-align: left;
-  margin-left: 25px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 30px;
-  animation-name: logo-animation;
-  animation-duration: 1s;
-}
-
-@keyframes logo-animation {
-  0% {
-    transform: rotate(45deg);
-  }
-
-  50% {
-    transform: rotate(180deg);
-  }
-}
-
-.Union {
-  flex: 1;
+nav {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  padding: 1.6rem;
+}
+
+.icons {
+  display: block;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 20;
   color: #6070ff;
 }
 
-.Union ul {
-  flex: 1;
+.display-img {
+  display: block;
+  margin-top: -16px;
+  margin-left: 40px;
+  width: 55px;
+}
+
+.no-display-img {
   display: none;
-  flex-direction: row;
-  justify-content: space-around;
-  color: #6070ff;
-  margin: 0;
-  padding: 0;
-  animation: 1s ease-out 0s 1 slideInFromLeft;
+  width: 20px;
+  margin: 1.3rem;
+  margin-top: 1px;
 }
 
-@keyframes slideInFromLeft {
-  0% {
-    transform: translateX(-100%);
-  }
+.open-menu .display-img {
+  display: none;
+}
 
-  100% {
-    transform: translateX(0);
-  }
+.open-menu .no-display-img {
+  display: block;
+  color: #fff;
+}
+
+.ul-list {
+  position: absolute;
+  left: -35px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgb(55, 72, 228);
+  width: 100%;
+  padding: 2rem;
+  padding-top: 40px;
+  padding-left: 5%;
+  padding-right: 90%;
+  height: 302.5rem;
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  transform: translate(-100%);
+  transition: transform 1s;
+  list-style-type: none;
+  font-weight: 600;
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(5px);
+  z-index: 2;
+}
+
+ul li {
+  margin-right: 8px;
+}
+
+.ul-list li {
+  padding-top: 1rem;
+  list-style: none;
+}
+
+.subcontent a {
+  color: #6070ff;
+  text-decoration: none;
+}
+
+.ul-list li a {
+  font-size: 26px;
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+}
+
+.open-menu .ul-list {
+  transform: translateX(0);
+  z-index: 5;
+}
+
+#logo {
+  font-size: 25px;
+  color: #6070ff;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 .project-card li {
   display: inline-block;
-  font-size: 15px;
-  font-weight: 800;
+  font-size: 12px;
+  font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.03;
   color: #6070ff;
@@ -114,22 +168,6 @@ header {
   list-style: none;
 }
 
-.subcontent {
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 10px 20px;
-  position: relative;
-  left: 0%;
-}
-
-.subcontent a {
-  color: #6070ff;
-  text-decoration: none;
-  font-size: 25px;
-}
-
 .Union ul li a {
   text-decoration: none;
 }
@@ -142,6 +180,16 @@ header {
   background-color: white;
   border-radius: 0 0 0 120px;
   height: 550px;
+}
+
+.subcontent {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 20px;
+  position: relative;
+  left: 0%;
 }
 
 .subcontent .social-media {
@@ -160,15 +208,15 @@ header {
 }
 
 h3 span {
-  font-size: 18px;
+  font-size: 13px;
   font-weight: 600;
   line-height: 16px;
   letter-spacing: 0;
-  color: #7a86a1;
+  color: #7a869a;
 }
 
 .canopy-card {
-  background: lightgray;
+  background: #e5e5e5;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -184,15 +232,6 @@ h3 span {
 .snapshoot-portofolio img {
   width: 100%;
   height: 100%;
-  transition: transform 0.3s ease-in-out;
-}
-
-.my-skills img {
-  margin-left: 34px;
-}
-
-.snapshoot-portofolio img:hover {
-  transform: scale(1.1);
 }
 
 .canopy-card-section {
@@ -215,11 +254,10 @@ h3 span {
 }
 
 .project-card li:hover {
-  background-color: white;
+  background-color: #8080ff;
 }
 
 .project-card ul {
-  float: left;
   padding: 0;
   width: 100%;
 }
@@ -254,12 +292,11 @@ button {
   background: #fff;
   cursor: pointer;
   flex-wrap: wrap;
-  transition: color 0.5s ease-in-out;
   transition-duration: 0.6s;
 }
 
 .project-card button:hover {
-  color: violet;
+  color: white;
   background-color: #6070ff;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
@@ -296,25 +333,18 @@ button {
 
 .about .about-container a {
   color: #6070ff;
-  font-size: 20px;
 }
 
 .btn-resume {
   border: 1px solid #396df2;
   padding: 7px 10px;
   font-size: 14px;
-  transition: color 1s ease-in-out;
-}
-
-.btn-resume:hover {
-  color: black;
-  background-color: #6070ff;
-  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
 .about .about-container .btn-resume:hover {
   border: 1px solid white;
   background-color: #396df2;
+  color: white;
   cursor: pointer;
 }
 
@@ -350,20 +380,34 @@ button {
 .about .tool ul.languages li {
   flex: 1;
   display: flex;
-  flex-direction: row;
   justify-content: flex-start;
   background-color: #ebebff;
+  border-radius: 5px;
 }
 
 .about .tool ul.languages li a {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
   color: #344563;
   padding: 10px 20px;
 }
 
+.about .tool ul.languages li span {
+  flex: 1;
+  margin-left: 10px;
+}
+
 .about .tool ul.languages li a i {
   margin-right: 10px;
   font-size: 19px;
+}
+
+.my-skills img {
+  margin-left: 34px;
 }
 
 .get {
@@ -391,7 +435,10 @@ footer {
 
 .contact {
   width: 100%;
-  height: fit-content;
+  height: 779px;
+  background-image: url(img/footer_background_shaps_mobile.png);
+  background-repeat: no-repeat;
+  background-size: calc(100%);
   background-color: #6070ff;
   border-radius: 120px 0 0 0;
   display: flex;
@@ -413,34 +460,6 @@ footer {
   margin-top: 50px;
 }
 
-/* .contact-me {
-  height: 765px;
-  width: 375px;
-  background: no-repeat right/57% url(img/contact\ form\ shapes-mobile@2x.png);
-  border-top-left-radius: 80px;
-  background-color: #6070ff;
-  margin-top: 80px;
-} */
-
-.contact p {
-  font-size: 19px;
-  font-weight: 500, bold;
-  line-height: 27px;
-  letter-spacing: 0;
-  display: flex;
-  color: white;
-  justify-content: space-between;
-  align-items: center;
-  width: 312px;
-  margin: 17px auto;
-  padding-left: 10px;
-  transition: transform 0.3s ease-in-out;
-}
-
-.contact p:hover {
-  transform: translateX(50px);
-}
-
 form {
   display: flex;
   flex-direction: column;
@@ -450,7 +469,6 @@ form {
 
 input,
 textarea {
-  border-radius: 8px;
   border: none;
   outline: none;
   color: #172b4d;
@@ -485,32 +503,52 @@ textarea {
 .btn :hover {
   color: #fff;
   background: #6070ff;
-}
-
-.touch {
-  cursor: pointer;
-  transition: background-color 0.5s ease-in-out;
-}
-
-.touch:hover {
-  color: black;
-  background-color: #6070ff;
-  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
-}
-
-label {
-  font-size: 30px;
+  border: 1px solid #fff;
 }
 
 @media all and (min-width: 768px) {
-  .Union ul {
-    flex: 1;
-    display: flex;
-    justify-content: space-around;
+  body {
+    overflow: hidden;
+    overflow-y: visible;
   }
 
-  .logo {
-    flex: 2;
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  nav {
+    width: 90%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 4rem;
+    padding-bottom: 1rem;
+    margin: 0;
+    text-align: center;
+  }
+
+  .display-img,
+  .no-display-img,
+  .open-menu .display-img,
+  .open-menu .no-display-img {
+    display: none;
+  }
+
+  #logo {
+    margin-left: 80px;
+  }
+
+  .Union li a {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
   }
 
   .Union i.fa-list-squares {
@@ -518,6 +556,16 @@ label {
   }
 
   /* /////////////SUBCONTENT///////////// */
+  .content {
+    width: 100%;
+    background-image: url(img/header_background_shapes.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: white;
+    border-radius: 0 0 0 120px;
+    height: 550px;
+  }
+
   .subcontent {
     width: 65%;
     position: relative;
@@ -526,6 +574,7 @@ label {
   }
 
   /* /////////////SUBCONTENT///////////// */
+
   .mycanopy-section {
     display: grid;
     grid-template-columns: 48% 48%;
@@ -543,7 +592,7 @@ label {
   /* //////////////ABOUT ME///////////////// */
   .about-container {
     display: flex;
-    flex-direction: row !important;
+    flex-direction: row;
     align-items: center;
   }
 
@@ -552,21 +601,30 @@ label {
     padding-right: 50px;
   }
 
-  .tool {
-    flex: 1;
+  .about .about-container {
+    width: 85%;
+    height: fit-content;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin-top: 50px;
+    border-radius: 0 25px 0 0;
   }
 
-  .tool .languages {
-    display: flex;
-    flex-direction: row !important;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .tool .languages > * {
-    flex: 1;
+  .about .about-container .tool .languages {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .about .about-container .tool .languages li {
+    width: 100%;
+    height: 100px;
+  }
+
+  .tool {
+    flex: 1;
   }
 
   /* /////////////////CONTACT ME///////////////// */
@@ -575,6 +633,27 @@ label {
     justify-content: center;
     align-items: center;
     align-content: center;
+  }
+
+  .contact {
+    width: 100%;
+    height: fit-content;
+    background-image: url(img/footer_background_shapes.png);
+    background-repeat: no-repeat;
+    background-size: calc(100% - 30px);
+    background-color: #6070ff;
+    border-radius: 120px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+  }
+
+  .contact .contact-container p {
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
   }
 
   .contact-container .btn {
@@ -611,10 +690,224 @@ label {
   }
 
   /* /////////////SUBCONTENT///////////// */
+
   .mycanopy-section {
     display: grid;
     grid-template-columns: 48% 48%;
     gap: 4%;
+  }
+
+  .order-1:nth-child(1) {
+    order: 1;
+  }
+
+  .order-2:nth-child(1) {
+    order: 2;
+  }
+
+  /* //////////////ABOUT ME///////////////// */
+  .about-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .about-me {
+    flex: 1;
+    padding-right: 50px;
+  }
+
+  .tool {
+    flex: 1;
+  }
+
+  .tool .languages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* /////////////////CONTACT ME///////////////// */
+  .contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .contact-container .btn {
+    text-align: center;
+    margin: 0;
+  }
+
+  .contact-container .btn button {
+    margin: 10px 0;
+  }
+}
+
+@media all and (min-width: 1440px) {
+  .container {
+    width: 1440px;
+    margin: 0 auto;
+  }
+
+  header {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    height: 50px;
+    background: white;
+  }
+
+  .logo {
+    color: #6070ff;
+    text-align: left;
+    margin-left: 150px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .Union ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .Union ul li {
+    margin: 0 15px;
+  }
+
+  .subcontent a {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .Union ul li a {
+    color: #344563;
+    font-weight: bold;
+  }
+
+  .Union i.fa-list-squares {
+    display: none;
+  }
+
+  /* /////////////SUBCONTENT///////////// */
+  .content {
+    width: 100%;
+    height: 916px;
+    background-image: url(img/header_background_shapes.png);
+    background-repeat: no-repeat;
+    background-size: calc(100% - 30px);
+    background-color: white;
+    border-radius: 0 0 0 120px;
+  }
+
+  .subcontent {
+    width: 920px;
+    height: 122px;
+    position: relative;
+    top: 35%;
+    left: 20%;
+  }
+
+  .subcontent h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .subcontent p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  /* /////////////SUBCONTENT///////////// */
+  .canopy-card-section {
+    flex: 1;
+    display: flex;
+    background: #fff;
+    width: 80%;
+    height: fit-content;
+    border-radius: 16px;
+    padding: 25px 25px;
+    gap: 12px;
+    flex-direction: column;
+    justify-content: center;
+    margin: 65px auto;
+  }
+
+  .mycanopy-section {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    gap: 4%;
+  }
+
+  .mycanopy-section .snapshoot-portofolio {
+    width: 544px;
+    height: 448px;
+  }
+
+  .mycanopy-section .project-card {
+    width: 544px;
+    height: 448px;
+  }
+
+  h2,
+  .mycanopy-section .project-card h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  h3,
+  .mycanopy-section .project-card h3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .mycanopy-section .project-card p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .tool .languages li {
+    flex: 1;
+    border-radius: 15px;
+  }
+
+  .mycanopy-section .project-card ul li {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
   }
 
   .order-1:nth-child(1) {
@@ -639,13 +932,43 @@ label {
 
   .tool {
     flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .tool button {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 10px;
   }
 
   .tool .languages {
+    flex: 1;
+    display: grid !important;
+    grid-template-columns: auto auto auto;
+    justify-content: flex-start !important;
+    align-items: flex-start;
+    column-gap: 10px;
+  }
+
+  .tool .languages li a {
+    flex: 1;
     display: flex;
-    flex-direction: row !important;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column !important;
+    justify-content: flex-start;
+    align-items: flex-start !important;
+  }
+
+  .tool .languages li a img {
+    flex: 1;
+  }
+
+  .tool .languages li a span {
+    flex: 1;
   }
 
   /* /////////////////CONTACT ME///////////////// */
@@ -656,6 +979,21 @@ label {
     align-content: center;
   }
 
+  .contact {
+    width: 1440px;
+    height: 846px;
+    background-image: url(img/footer_background_shapes.png);
+    background-repeat: no-repeat;
+    background-size: calc(100% - 30px);
+    background-color: #6070ff;
+    border-radius: 120px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+  }
+
   .contact-container .btn {
     text-align: center;
     margin: 0;
@@ -663,5 +1001,11 @@ label {
 
   .contact-container .btn button {
     margin: 10px 0;
+  }
+
+  .contact .contact-container p {
+    width: 45%;
+    padding: 10px;
+    margin: 10px;
   }
 }
