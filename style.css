@@ -92,29 +92,36 @@ nav {
 
 .ul-list {
   position: absolute;
-  top: 0;
-  left: 0;
+  left: -35px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  background: rgba(96, 112, 255, 1);
   width: 100%;
   padding: 2rem;
-  padding-top: 130px;
-  padding-left: 10%;
+  padding-top: 40px;
+  padding-left: 5%;
   padding-right: 90%;
-  height: 325.5rem;
-  background-color: #6070ff;
+  height: 302.5rem;
   opacity: 0.9;
   display: flex;
   flex-direction: column;
   justify-content: start;
   transform: translate(-100%);
   transition: transform 1s;
+  list-style-type: none;
+  font-weight: 600;
+  backdrop-filter: blur(5px);
 }
+  
 
 ul li {
-  margin-right: 10px;
+  margin-right: 8px;
 }
 
 .ul-list li {
   padding-top: 1rem;
+  list-style: none;
 }
 
 .subcontent a {
@@ -123,7 +130,7 @@ ul li {
 }
 
 .ul-list li a {
-  font-size: 30px;
+  font-size: 26px;
   color: #fff;
   text-decoration: none;
   list-style: none;
@@ -140,33 +147,6 @@ ul li {
   text-decoration: none;
   font-weight: 600;
 }
-
-/* header .logo a {
-  color: #6070ff;
-  transition-property: transform;
-  transition-duration: 1000ms;
-  transition-delay: 100ms;
-  font-weight: bold;
-} */
-
-/* .Union {
-  flex: 1;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  color: #6070ff;
-}
-
-.Union ul {
-  flex: 1;
-  flex-direction: row;
-  justify-content: space-around;
-  color: #6070ff;
-  margin: 0;
-  padding: 0;
-  display: none;
-} */
 
 .project-card li {
   display: inline-block;
@@ -558,15 +538,10 @@ textarea {
     display: none;
   }
 
-  /* .Union ul {
-    flex: 1;
-    display: flex;
-    justify-content: space-around;
-  } */
-
   #logo {
     margin-left: 80px;
   }
+  
 
   .Union li a {
     font-family: 'Poppins', sans-serif;
