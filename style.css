@@ -96,7 +96,7 @@ nav {
   right: 0px;
   top: 0px;
   bottom: 0px;
-  background: rgba(96, 112, 255, 1);
+  background: rgb(55, 72, 228);
   width: 100%;
   padding: 2rem;
   padding-top: 40px;
@@ -111,7 +111,9 @@ nav {
   transition: transform 1s;
   list-style-type: none;
   font-weight: 600;
+  mix-blend-mode: multiply;
   backdrop-filter: blur(5px);
+  z-index:2;
 }
   
 
