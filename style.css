@@ -93,9 +93,9 @@ nav {
 .ul-list {
   position: absolute;
   left: -35px;
-  right: 0px;
-  top: 0px;
-  bottom: 0px;
+  right: 0;
+  top: 0;
+  bottom: 0;
   background: rgb(55, 72, 228);
   width: 100%;
   padding: 2rem;
@@ -113,9 +113,8 @@ nav {
   font-weight: 600;
   mix-blend-mode: multiply;
   backdrop-filter: blur(5px);
-  z-index:2;
+  z-index: 2;
 }
-  
 
 ul li {
   margin-right: 8px;
@@ -543,7 +542,6 @@ textarea {
   #logo {
     margin-left: 80px;
   }
-  
 
   .Union li a {
     font-family: 'Poppins', sans-serif;
