@@ -104,7 +104,6 @@ const sampleStep = [
      Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,
       when an unkown printer took a galley of type and scrambled it 1960s with thereleaLorem 
       Ipsum is simply dummy text of the printing and typesetting industry. 
-
     Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, 
     when an unknown printer took a galley of type and scrambled it 1960s with the 
     releorem Ipsum is simply dummy text of the printing and typesetting industry. 
@@ -124,11 +123,13 @@ seeproject.forEach((item) => {
   item.addEventListener('click', () =>{
    popbar.style.display = "block"
     popbar.innerHTML = `
-    <div class="popup-content">
-    <div class="title popup-title">
-        <h2 class="popup-h2">${sampleStep[0].title}</h2>
-        <i class="fas fa-times close-popup"data-dismiss-popup></i>
-        <div class="caopy popup-canopy">
+    <div class="popup-container">
+    <div>
+    <div class="popup-title">
+        <h2>${sampleStep[0].title}</h2>
+        <i class="fas fa-times close-popup" data-dismiss-popup></i>
+        </div>
+        <div class="subtitle-container">
             <h4>${sampleStep[0].canopy[0]}</h4>
             <ul>
                 <li>${sampleStep[0].canopy[1]}</li>
@@ -137,11 +138,11 @@ seeproject.forEach((item) => {
         </div>
         <img src="${sampleStep[0].image}" alt="my first work">
     </div>
-    <div class="window-details">
-        <p class="window-descript">${sampleStep[0].descript}
+    <div>
+        <p>${sampleStep[0].descript}
         </p>
-        <div class="aside-clm">
-            <ul class="window-languages">
+        <div>
+            <ul>
                 <li>${sampleStep[0].languages[0]}</li>
                 <li>${sampleStep[0].languages[1]}</li>
                 <li>${sampleStep[0].languages[2]}t</li>
@@ -149,9 +150,9 @@ seeproject.forEach((item) => {
                 <li>${sampleStep[0].languages[4]}</li>
                 <li>${sampleStep[0].languages[5]}</li>
             </ul>
-            <div class="window-btn-links">
-                <a class="btn-live link" target="_blank" href="#">See live <img src="img/Icons1/Icon.png" class="up" alt="popup"/></a>
-                <a class="btn-code link" target="_blank" href="#">See source <img src="img/Vector6.png" class="up" alt="github"/></a>
+            <div>
+                <a class="btn-live link" target="_blank" href="#">See live <img src="img/icon2.png"  alt="popup"/></a>
+                <a class="btn-code link" target="_blank" href="#">See source <img src="img/Vector6.png"  alt="github"/></a>
             </div>
         </div>
     </div>
@@ -217,4 +218,25 @@ popupsBtn.forEach((btn) => {
       }, 1);
     }
   });
+});
+
+
+function isLower(str) {
+  return /[a-z]/.test(str) && !/[A-Z]/.test(str);
+}
+
+const form = document.querySelector('form');
+const email = document.querySelector('#mail');
+const errorMessageField = document.querySelector('small');
+
+form.addEventListener('submit',(e) => {
+  if(!isLower(email.value)) {
+    e.preventDefault();
+    errorMessageField.textContent = 'Please, make your email lowercase.';
+    email.style.border = '2px solid green';
+  } else {
+    errorMessageField.textContent='';
+    email.style.border = '2px solid black';
+    email.submit();
+  }
 });
