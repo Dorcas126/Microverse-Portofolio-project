@@ -506,7 +506,46 @@ textarea {
   border: 1px solid #fff;
 }
 
-.popup-detail h2 {
+.popup-detail button {
+  font-size : 15px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03;
+  color: #396df2;
+  border: 1px solid #396df2;
+  padding: 7px 16px;
+  margin: 16px auto;
+  margin-right: 5px;
+  border-radius: 8px;
+  background: #fff;
+  cursor: pointer;
+  flex-wrap: wrap;
+}
+
+.popup-detail li {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.03;
+  color: #6070ff;
+  background: #ebebff;
+  margin-right: 5px;
+  padding: 7px;
+  list-style: none;
+  border-radius: 8px;
+}
+
+.popup-detail p{
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #344563;
+  margin-top: 8px;
+}
+
+.popup-h2 {
   margin-top: 4px;
 }
 
@@ -540,6 +579,7 @@ textarea {
 .screenshot_holder  .pop-img{
   width: 100%;
 }
+
 
 @media all and (min-width: 768px) {
   body {
@@ -1164,13 +1204,17 @@ textarea {
   }
 
   /* .popup {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    overflow-y: scroll;
+    background-color: #ffffff;
+    width: 420px;
+    padding: 30px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    font-family: "Poppins",sans-serif;
+    display: none; 
+    text-align: center;
   }
 
   .popup .active {
@@ -1196,11 +1240,12 @@ textarea {
   }
 
   .close-popup {
-    font-size: 24px;
-    color: rgba(131, 131, 131);
     position: absolute;
-    top: 20px;
-    right: 30px;
+    left: 25%;
+    right: 25%;
+    top: 25%;
+    bottom: 25%;
+    border: 2px solid #67798E;
   }
 
   .popup .canopy {

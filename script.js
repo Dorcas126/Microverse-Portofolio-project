@@ -14,7 +14,7 @@ menuLink.forEach((e) => e.addEventListener('click', () => {
 
 //-------------------------------POPUP WINDOW------------------------//
 
-
+ 
 
 const works = [
   {
@@ -71,27 +71,100 @@ for (let i=0; i < works.length; i += 1) {
   const work = works[i];
 
   portfolio.innerHTML += `
-     <div class="card card-1" id="btn-${work.id}">
-        <img src="${work.image}" alt="$work.imageAlt">
-        <div class="details">
-          <h2>${work.title}</h2>
-          <div class="canpopy">
-          <h4>${work.canopy[0]}</h4>
-          <ul>
-             <li>${work.canopy[1]}</li>
-             <li>${work.canopy[2]}</li>
-          </ul>
-        </div>
-        <p class="card-descript"> ${work.descript}</p>
-         <ul class="languages">
-            <li>${work.languages[0]}</li>
-            <li>${work.languages[1]}</li>
-            <li>${work.languages[2]}</li>
-          </ul>
-          <button data-popup-ref="myPopup">See project</button>
+  <div class="canopy-card-section">
+  <div class="mycanopy-section">
+      <div class="snapshoot-portofolio">
+          <img src="${work.image}" alt="snapshoot Portfolio picture">
       </div>
-  `;
+      <div class="project-card">
+          <h2>${work.title}</h2>
+          <h3>${work.canopy[0]} &nbsp; <img src="img/Counter.png" alt="dot symbol">&nbsp;<span>${work.canopy[1]}
+                  &nbsp; <img src="img/Counter.png" alt="dot symbol"> &nbsp;${work.canopy[2]} </span></h3>
+          <p> ${work.descript}</p>
+          <ul>
+              <li class="html-tag">${work.languages[0]}</li>
+              <li class="css-tag">${work.languages[1]}css</li>
+              <li class="js-tag">${work.languages[2]}</li>
+          </ul>
+          <button type="button" id="see_project">See Project</button>
+      </div>
+  </div>
+</div>
+`;
 }
+
+const sampleStep = [
+  {
+    title: 'Tonic',
+    image: 'img/Snapshoot Portfolio (5).png',
+    imageAlt: 'snapshoot Portfolio picture',
+    canopy: ['CANOPY', 'Back End Dev', '2015'],
+    descript:
+    `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+     Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,
+      when an unkown printer took a galley of type and scrambled it 1960s with thereleaLorem 
+      Ipsum is simply dummy text of the printing and typesetting industry. 
+
+    Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, 
+    when an unknown printer took a galley of type and scrambled it 1960s with the 
+    releorem Ipsum is simply dummy text of the printing and typesetting industry. 
+    Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the 
+    releawn printer took a galley of type and scrambled it 1960s with the releaLorem 
+    Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
+    has been the industrys standard dummy text ever since the 1500s, when an unknown 
+    printer took a galley of type and scrambled it 1960s with the relea`,
+    languages: ['html', 'css', 'javascript', 'github','ruby','bootstrap']
+  }
+]
+
+
+const popbar = document.getElementById('myPopup')
+const seeproject = document.querySelectorAll('#see_project')
+seeproject.forEach((item) => {
+  item.addEventListener('click', () =>{
+   popbar.style.display = "block"
+    popbar.innerHTML = `
+    <div class="popup-content">
+    <div class="title popup-title">
+        <h2 class="popup-h2">${sampleStep[0].title}</h2>
+        <i class="fas fa-times close-popup"data-dismiss-popup></i>
+        <div class="caopy popup-canopy">
+            <h4>${sampleStep[0].canopy[0]}</h4>
+            <ul>
+                <li>${sampleStep[0].canopy[1]}</li>
+                <li>${sampleStep[0].canopy[2]}</li>
+            </ul>
+        </div>
+        <img src="${sampleStep[0].image}" alt="my first work">
+    </div>
+    <div class="window-details">
+        <p class="window-descript">${sampleStep[0].descript}
+        </p>
+        <div class="aside-clm">
+            <ul class="window-languages">
+                <li>${sampleStep[0].languages[0]}</li>
+                <li>${sampleStep[0].languages[1]}</li>
+                <li>${sampleStep[0].languages[2]}t</li>
+                <li>${sampleStep[0].languages[3]}</li>
+                <li>${sampleStep[0].languages[4]}</li>
+                <li>${sampleStep[0].languages[5]}</li>
+            </ul>
+            <div class="window-btn-links">
+                <a class="btn-live link" target="_blank" href="#">See live <img src="img/Icons1/Icon.png" class="up" alt="popup"/></a>
+                <a class="btn-code link" target="_blank" href="#">See source <img src="img/Vector6.png" class="up" alt="github"/></a>
+            </div>
+        </div>
+    </div>
+</div>
+    `;
+    closeBtn =  document.querySelector('.close-popup')
+closeBtn.addEventListener('click', () => {
+  popbar.style.display='none'
+})
+  })
+})
+
+
 
 const popupsBtn = document.querySelectorAll('[data-popup-ref]');
 const popupTitle = document.querySelector('.popup-h2');
