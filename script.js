@@ -116,13 +116,17 @@ const sampleStep = [
   }
 ]
 
+const bodyElement = document.querySelector('body')
 
 const popbar = document.getElementById('myPopup')
 const seeproject = document.querySelectorAll('#see_project')
 seeproject.forEach((item) => {
   item.addEventListener('click', () =>{
-   popbar.style.display = "block"
-    popbar.innerHTML = `
+
+    const main = document.createElement('section')
+    main.className = 'popup'
+   
+    main.innerHTML = `
     <div class="popup-container">
     <div>
     <div class="popup-title">
@@ -138,7 +142,7 @@ seeproject.forEach((item) => {
         </div>
         <img class="popupImage" src="${sampleStep[0].image}" alt="my first work">
     </div>
-    <div>
+    <div class= "popupDescription">
         <p class="paragraphPopup">${sampleStep[0].descript}
         </p>
         <div class="language-container">
@@ -158,6 +162,8 @@ seeproject.forEach((item) => {
     </div>
 </div>
     `;
+
+    bodyElement.appendChild(main)
     closeBtn =  document.querySelector('.close-popup')
 closeBtn.addEventListener('click', () => {
   popbar.style.display='none'
