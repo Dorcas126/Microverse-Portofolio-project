@@ -136,21 +136,21 @@ seeproject.forEach((item) => {
                 <li>${sampleStep[0].canopy[2]}</li>
             </ul>
         </div>
-        <img src="${sampleStep[0].image}" alt="my first work">
+        <img class="popupImage" src="${sampleStep[0].image}" alt="my first work">
     </div>
     <div>
-        <p>${sampleStep[0].descript}
+        <p class="paragraphPopup">${sampleStep[0].descript}
         </p>
-        <div>
-            <ul>
+        <div class="language-container">
+            <ul class="languageText">
                 <li>${sampleStep[0].languages[0]}</li>
                 <li>${sampleStep[0].languages[1]}</li>
                 <li>${sampleStep[0].languages[2]}t</li>
-                <li>${sampleStep[0].languages[3]}</li>
-                <li>${sampleStep[0].languages[4]}</li>
-                <li>${sampleStep[0].languages[5]}</li>
+                <li class="languageLinks">${sampleStep[0].languages[3]}</li>
+                <li class="languageLinks">${sampleStep[0].languages[4]}</li>
+                <li class="languageLinks">${sampleStep[0].languages[5]}</li>
             </ul>
-            <div>
+            <div class="button_container">
                 <a class="btn-live link" target="_blank" href="#">See live <img src="img/icon2.png"  alt="popup"/></a>
                 <a class="btn-code link" target="_blank" href="#">See source <img src="img/Vector6.png"  alt="github"/></a>
             </div>
