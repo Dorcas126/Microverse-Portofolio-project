@@ -166,7 +166,7 @@ seeproject.forEach((item) => {
     bodyElement.appendChild(main)
     closeBtn =  document.querySelector('.close-popup')
 closeBtn.addEventListener('click', () => {
-  popbar.style.display='none'
+  bodyElement.removeChild(main)
 })
   })
 })
