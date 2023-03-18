@@ -151,7 +151,7 @@ seeproject.forEach((item) => {
                 <li class="languageLinks">${sampleStep[0].languages[5]}</li>
             </ul>
             <div class="button_container">
-                <a class="btn-live link" target="_blank" href="#">See live <img src="img/icon2.png"  alt="clock"/></a>
+                <a class="btn-live link" target="_blank" href="#">See live <img src="img/icon2.png"  alt="popup"/></a>
                 <a class="btn-code link" target="_blank" href="#">See source <img src="img/Vector6.png"  alt="github"/></a>
             </div>
         </div>
