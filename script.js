@@ -202,20 +202,6 @@ popupsBtn.forEach((btn) => {
         event.stopPropagation();
       });
 
-      popup.classList.add('active');
-      setTimeout(() => {
-        popupTitle.innerText = title;
-        popImage.setAttribute('src', image);
-        popImage.setAttribute('alt', imageAlt);
-        projectDetails.innerText = descript;
-        language.innerHTML = languages
-          .map((lang) => `<li>${lang}</li>`)
-          .join('');
-        livelink.setAttribute('href', liveBtn);
-        ghLink.setAttribute('href', sourcebtn);
-
-        popupContent.classList.add('active');
-      }, 1);
     }
   });
 });
