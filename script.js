@@ -11,45 +11,42 @@ menuLink.forEach((e) => e.addEventListener('click', () => {
   body.classList.remove('open-menu');
 }));
 
-
-//-------------------------------POPUP WINDOW------------------------//
-
- 
+// -------------------------------POPUP WINDOW------------------------//
 
 const works = [
   {
-    id:1,
+    id: 1,
     title: 'Tonic',
     image: 'img/Snapshoot Portfolio.png',
     imgeAlt: 'snapshoot Portfolio picture',
     canopy: ['CANOPY', 'Front-End Dev', '2022'],
     descript:
     'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    languages: ['html', 'css', 'javascript', 'github','ruby','bootstrap'],
-    sourcebtn:'#',
-    liveBtn:'#', 
+    languages: ['html', 'css', 'javascript', 'github', 'ruby', 'bootstrap'],
+    sourcebtn: '#',
+    liveBtn: '#',
   },
   {
     id: 2,
-    title:'Multi-Post Stories',
+    title: 'Multi-Post Stories',
     image: 'img/Snapshoot Portfolio (1).png',
-    imageAlt : 'snapshoot Portfolio picture',
+    imageAlt: 'snapshoot Portfolio picture',
     canopy: ['FACEBOOK', 'Back End Dev', '2015'],
     descript:
     'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
-    languages: ['html', 'css', 'Javascript', 'github','ruby','Bootstrap'],
+    languages: ['html', 'css', 'Javascript', 'github', 'ruby', 'Bootstrap'],
     sourcebtn: '#',
     liveBtn: '#',
   },
   {
     id: 3,
-    title:'Facebook 360',
+    title: 'Facebook 360',
     image: 'img/Snapshoot Portfolio (2).png',
-    imageAlt : 'snapshoot Portfolio picture',
+    imageAlt: 'snapshoot Portfolio picture',
     canopy: ['FACEBOOK', 'Full Stack Dev', '2015'],
     descript:
     'Exploring the future of media in Facebooks first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
-    languages: ['html', 'css', 'Javascript', 'github','ruby','Bootstrap'],
+    languages: ['html', 'css', 'Javascript', 'github', 'ruby', 'Bootstrap'],
     sourcebtn: '#',
     liveBtn: '#',
   },
@@ -57,17 +54,17 @@ const works = [
     id: 4,
     title: 'Uber Navigation',
     image: 'img/Snapshoot Portfolio (3).png',
-    imageAlt : 'snapshoot Portfolio picture',
+    imageAlt: 'snapshoot Portfolio picture',
     canopy: ['Uber', 'Lead Developer', '2018'],
     descript:
     'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
-    languages: ['html', 'css', 'Javascript', 'github','ruby','Bootstrap'],
+    languages: ['html', 'css', 'Javascript', 'github', 'ruby', 'Bootstrap'],
     sourcebtn: '#',
     liveBtn: '#',
   },
 ];
 
-for (let i=0; i < works.length; i += 1) {
+for (let i = 0; i < works.length; i += 1) {
   const work = works[i];
 
   portfolio.innerHTML += `
@@ -112,20 +109,19 @@ const sampleStep = [
     Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
     has been the industrys standard dummy text ever since the 1500s, when an unknown 
     printer took a galley of type and scrambled it 1960s with the relea`,
-    languages: ['html', 'css', 'javascript', 'github','ruby','bootstrap']
-  }
-]
+    languages: ['html', 'css', 'javascript', 'github', 'ruby', 'bootstrap'],
+  },
+];
 
-const bodyElement = document.querySelector('body')
+const bodyElement = document.querySelector('body');
 
-const popbar = document.getElementById('myPopup')
-const seeproject = document.querySelectorAll('#see_project')
+const popbar = document.getElementById('myPopup');
+const seeproject = document.querySelectorAll('#see_project');
 seeproject.forEach((item) => {
-  item.addEventListener('click', () =>{
+  item.addEventListener('click', () => {
+    const main = document.createElement('section');
+    main.className = 'popup';
 
-    const main = document.createElement('section')
-    main.className = 'popup'
-   
     main.innerHTML = `
     <div class="popup-container">
     <div>
@@ -163,15 +159,13 @@ seeproject.forEach((item) => {
 </div>
     `;
 
-    bodyElement.appendChild(main)
-    closeBtn =  document.querySelector('.close-popup')
-closeBtn.addEventListener('click', () => {
-  bodyElement.removeChild(main)
-})
-  })
-})
-
-
+    bodyElement.appendChild(main);
+    closeBtn = document.querySelector('.close-popup');
+    closeBtn.addEventListener('click', () => {
+      bodyElement.removeChild(main);
+    });
+  });
+});
 
 const popupsBtn = document.querySelectorAll('[data-popup-ref]');
 const popupTitle = document.querySelector('.popup-h2');
@@ -180,7 +174,6 @@ const projectDetails = document.querySelector('.window-descript');
 const language = document.querySelector('.windows-languages');
 const livelink = document.querySelector('.btn-live');
 const ghLink = document.querySelector('.btn-code');
-
 
 popupsBtn.forEach((btn) => {
   btn.addEventListener('click', () => {
@@ -226,7 +219,6 @@ popupsBtn.forEach((btn) => {
   });
 });
 
-
 function isLower(str) {
   return /[a-z]/.test(str) && !/[A-Z]/.test(str);
 }
@@ -235,13 +227,13 @@ const form = document.querySelector('form');
 const email = document.querySelector('#mail');
 const errorMessageField = document.querySelector('small');
 
-form.addEventListener('submit',(e) => {
-  if(!isLower(email.value)) {
+form.addEventListener('submit', (e) => {
+  if (!isLower(email.value)) {
     e.preventDefault();
     errorMessageField.textContent = 'Please, make your email lowercase.';
     email.style.border = '2px solid green';
   } else {
-    errorMessageField.textContent='';
+    errorMessageField.textContent = '';
     email.style.border = '2px solid black';
     email.submit();
   }
