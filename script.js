@@ -226,23 +226,16 @@ popupsBtn.forEach((btn) => {
   });
 });
 
+const form = document.getElementById('formMain');
+const mail = document.getElementById('email');
+const message = document.querySelector('span');
 
-function isLower(str) {
-  return /[a-z]/.test(str) && !/[A-Z]/.test(str);
-}
-
-const form = document.querySelector('form');
-const email = document.querySelector('#mail');
-const errorMessageField = document.querySelector('small');
-
-form.addEventListener('submit',(e) => {
-  if(!isLower(email.value)) {
-    e.preventDefault();
-    errorMessageField.textContent = 'Please, make your email lowercase.';
-    email.style.border = '2px solid green';
+form.addEventListener('submit', (even) => {
+  const chackEmail = mail.value.toLowerCase();
+  if (mail.value !== chackEmail || mail.value === '') {
+    even.preventDefault();
+    message.innerHTML = 'Ivnvalid form. Your email have to be in lowercase';
   } else {
-    errorMessageField.textContent='';
-    email.style.border = '2px solid black';
-    email.submit();
+    form.submit();
   }
 });
