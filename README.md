@@ -53,7 +53,7 @@ In order to run this project you need:You have to clone this project to your loc
 
 ### Setup
 
-Clone this repository to your desired folder:git clone https://github.com/Dorcas126/Microverse-Portofolio-project/tree/popup-window
+Clone this repository to your desired folder:git clone https://github.com/Dorcas126/Microverse-Portofolio-project/tree/validate-contact-form
 ### Install
 
 Install this project with: Any software which you are comfortable with
@@ -98,7 +98,7 @@ I would like to thank in advance. This is the first draft of this project. It wo
 
 ## 📝 License <a name="license"></a> 
 
-This project is [MIT](https://github.com/Dorcas126/Microverse-Portofolio-project/blob/popup-window/LICENCE) licensed.
+This project is [MIT](https://github.com/Dorcas126/Microverse-Portofolio-project/blob/validate-contact-form/LICENCE) licensed.
 
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
