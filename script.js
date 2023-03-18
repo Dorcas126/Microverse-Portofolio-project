@@ -224,3 +224,12 @@ const form = document.getElementById('formMain');
 const mail = document.getElementById('email');
 const message = document.getElementById('span');
 
+form.addEventListener('submit', (even) => {
+  const chackEmail = mail.value.toLowerCase();
+  if (mail.value !== chackEmail || mail.value === '') {
+    even.preventDefault();
+    message.innerHTML = 'Invalid form. Your email have to be in lowercase';
+  } else {
+    form.submit();
+  }
+});
