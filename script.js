@@ -151,7 +151,7 @@ seeproject.forEach((item) => {
                 <li class="languageLinks">${sampleStep[0].languages[5]}</li>
             </ul>
             <div class="button_container">
-                <a class="btn-live link" target="_blank" href="#">See live <img src="img/icon2.png"  alt="popup"/></a>
+                <a class="btn-live link" target="_blank" href="#">See live <img src="img/icon2.png"  alt="clock"/></a>
                 <a class="btn-code link" target="_blank" href="#">See source <img src="img/Vector6.png"  alt="github"/></a>
             </div>
         </div>
@@ -210,31 +210,11 @@ popupsBtn.forEach((btn) => {
         language.innerHTML = languages
           .map((lang) => `<li>${lang}</li>`)
           .join('');
-        liveLink.setAttribute('href', liveBtn);
+        livelink.setAttribute('href', liveBtn);
         ghLink.setAttribute('href', sourcebtn);
 
         popupContent.classList.add('active');
       }, 1);
     }
   });
-});
-
-function isLower(str) {
-  return /[a-z]/.test(str) && !/[A-Z]/.test(str);
-}
-
-const form = document.querySelector('form');
-const email = document.querySelector('#mail');
-const errorMessageField = document.querySelector('small');
-
-form.addEventListener('submit', (e) => {
-  if (!isLower(email.value)) {
-    e.preventDefault();
-    errorMessageField.textContent = 'Please, make your email lowercase.';
-    email.style.border = '2px solid green';
-  } else {
-    errorMessageField.textContent = '';
-    email.style.border = '2px solid black';
-    email.submit();
-  }
 });
