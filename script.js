@@ -67,6 +67,7 @@ const works = [
 for (let i = 0; i < works.length; i += 1) {
   const work = works[i];
 
+  const portfolio = document.getElementById('portfolio');
   portfolio.innerHTML += `
   <div class="canopy-card-section">
   <div class="mycanopy-section">
