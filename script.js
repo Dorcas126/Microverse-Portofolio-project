@@ -115,7 +115,7 @@ const sampleStep = [
 
 const bodyElement = document.querySelector('body');
 
-const popbar = document.getElementById('myPopup');
+// const popbar = document.getElementById('myPopup');
 const seeproject = document.querySelectorAll('#see_project');
 seeproject.forEach((item) => {
   item.addEventListener('click', () => {
@@ -160,7 +160,7 @@ seeproject.forEach((item) => {
     `;
 
     bodyElement.appendChild(main);
-    closeBtn = document.querySelector('.close-popup');
+    const closeBtn = document.querySelector('.close-popup');
     closeBtn.addEventListener('click', () => {
       bodyElement.removeChild(main);
     });
